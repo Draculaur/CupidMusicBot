@@ -75,7 +75,7 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        "That was emotional & full of Love 🥰 Let's play more love songs by typing [ /play (song name) then (singer name) then hit send, i am here if needed let's spread Love 💖",
+                        "That was emotional & full of Love 🥰 Let's play more love songs by typing [ /play (song name) then (singer name) ] then hit send, i am here if needed let's spread Love 💖",
                     )
                 except:
                     continue
