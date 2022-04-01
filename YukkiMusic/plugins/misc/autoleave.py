@@ -37,9 +37,8 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001583224884
+                                and chat_id != -1001507702293
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
@@ -75,7 +74,7 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        "That was emotional & full of Love 🥰 Let's play more love songs by typing [ /play (song name) then (singer name) ] then hit send, i am here if needed let's spread Love 💖",
+                        "That was emotional & full of Love 🥰 Let's play more love songs by typing [ /play (song name) then (singer name) ] then hit send, I'm always ready for party and Love 💞, let's spread the Love 💖",
                     )
                 except:
                     continue
